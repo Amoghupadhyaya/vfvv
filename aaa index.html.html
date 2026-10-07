@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Shawarma Bros - Menu</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap');
+
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 30px 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu-card {
+            width: 100%;
+            max-width: 550px;
+            background: #1e1e1e;
+            border: 3px solid #ff4500;
+            border-radius: 16px;
+            padding: 30px 25px;
+            box-shadow: 0 10px 30px rgba(255, 69, 0, 0.25);
+            box-sizing: border-box;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px dashed #333;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 52px;
+            letter-spacing: 2px;
+            color: #ff4500;
+            margin: 0;
+            line-height: 0.95;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            font-size: 13px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #ffb703;
+            margin: 8px 0 0 0;
+            font-weight: 600;
+        }
+
+        .byob-badge {
+            display: inline-block;
+            background: #ff4500;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 5px 14px;
+            border-radius: 20px;
+            margin-top: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section-title {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 26px;
+            letter-spacing: 1px;
+            color: #ffb703;
+            border-left: 4px solid #ff4500;
+            padding-left: 10px;
+            margin: 25px 0 15px 0;
+        }
+
+        .menu-item {
+            margin-bottom: 18px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .item-name {
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .dots {
+            flex-grow: 1;
+            border-bottom: 1px dotted #444;
+            margin: 0 10px;
+        }
+
+        .item-price {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ff4500;
+        }
+
+        .item-desc {
+            font-size: 12px;
+            color: #aaa;
+            margin-top: 3px;
+            line-height: 1.3;
+        }
+
+        .byob-section {
+            background: #282828;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 15px 18px;
+            margin-top: 25px;
+        }
+
+        .byob-section .section-title {
+            margin-top: 0;
+            border-left-color: #ffb703;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 2px dashed #333;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-card">
+    <div class="header">
+        <h1>THE SHAWARMA BROS</h1>
+        <p>Smoky Paneer Wraps & BYOB Mixers</p>
+        <div class="byob-badge">BYOB Friendly • Bring Your Own Bottle</div>
+    </div>
+
+    <div class="section-title">Bro's Special Paneer Shawarmas</div>
+
+    <div class="menu-item">
+        <div class="item-header">
+            <span class="item-name">Classic Bros Paneer Shawarma</span>
+            <span class="dots"></span>
+            <span class="item-price">₹120</span>
+        </div>
+        <div class="item-desc">Char-grilled marinated cottage cheese, garlic toum, and pickled veggies wrapped in warm pita.</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-header">
+            <span class="item-name">Fiery Schezwan Paneer Wrap</span>
+            <span class="dots"></span>
+            <span class="item-price">₹140</span>
+        </div>
+        <div class="item-desc">Paneer chunks tossed in spicy garlic-schezwan sauce with crisp cabbage & mayo.</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-header">
+            <span class="item-name">Cheese Melt Paneer Shawarma</span>
+            <span class="dots"></span>
+            <span class="item-price">₹160</span>
+        </div>
+        <div class="item-desc">Loaded with extra melted cheese, smoky paneer tikka, and signature house sauce.</div>
+    </div>
+
+    <div class="byob-section">
+        <div class="section-title">BYOB Mixers & Setup</div>
+
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="item-name">Fresh Masala Lemonade</span>
+                <span class="dots"></span>
+                <span class="item-price">₹50</span>
+            </div>
+            <div class="item-desc">Lemon, mint, and secret chat masala (Great mixer for gin or vodka).</div>
+        </div>
+
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="item-name">Spiced Cola / Energy Mix</span>
+                <span class="dots"></span>
+                <span class="item-price">₹60</span>
+            </div>
+            <div class="item-desc">Chilled cola with a peri-peri salt rim and fresh lime (Pairs well with dark spirits).</div>
+        </div>
+
+        <div class="menu-item">
+            <div class="item-header">
+                <span class="item-name">Ice Bucket & Glassware Set</span>
+                <span class="dots"></span>
+                <span class="item-price">₹40</span>
+            </div>
+            <div class="item-desc">Includes heavy-duty disposable glasses, crushed ice, and fresh lime slices.</div>
+        </div>
+    </div>
+
+    <div class="section-title">Drinks & Extras</div>
+
+    <div class="menu-item">
+        <div class="item-header">
+            <span class="item-name">Chilled Soft Drinks (Coke / Sprite)</span>
+            <span class="dots"></span>
+            <span class="item-price">MRP</span>
+        </div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-header">
+            <span class="item-name">Extra Garlic Dip / Spicy Mayo</span>
+            <span class="dots"></span>
+            <span class="item-price">₹20</span>
+        </div>
+    </div>
+
+    <div class="footer">
+        Please consume responsibly • Ice & mixers available at the counter
+    </div>
+</div>
+
+</body>
+</html>
